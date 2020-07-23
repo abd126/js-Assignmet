@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1><a href="#" onclick="welcomeLink()">Go For JS Page </a></h1>
+
+    <div class="img-box">
+        <img src="up1.jpg" onclick="Purchase()" alt="">
+        <img src="up2.jpg" onclick="Purchase()" alt="">
+        <img src="up3.jpg" onclick="Purchase()" alt="">
+        <img src="up4.jpg" onclick="Purchase()" alt="">
+
+        
+    </div>
+
+    <div class="img-box-2">
+        <img src="sh2.jpg" alt="" id="img" onmouseover="ChangePic('img','sh3.jpg')" onmouseout="ChangePic('img','sh2.jpg')">
+        
+    </div>
+
+    <div class="Counter">
+        <h1 id="Counter">00</h1>
+        <button onclick="Increas()">Increase Count</button>
+        <button onclick="Decrease()">Decrease Count</button>
+    </div>
+
+    <div>
+        <input type="text" id="name" placeholder="Enter Your Name">
+        <input type="text" id="clas">
+        <button onclick="add()">Add</button>
+
+        <table id="table">
+            <tr id="tr">
+
+            </tr>
+        </table>
+    </div>
+ 
+</body>
+<script src="app.js"></script>
+</html>
